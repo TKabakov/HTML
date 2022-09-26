@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <tilte> HTML Tables</tilte>
+    <style>table {
+        border: 2px solid red;
+        border-radius: 6px;
+    }
+    th,td{
+        border: 1px solid red;
+        border-style:dashed;
+    }
+    tr:nth-child(even){
+        background-color: aqua;
+    }
+    tr:nth-child(odd){
+        background-color: yellow;
+    }
+    </style>
+</head>
+<body>
+    <h3>Exercise 1</h3>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Jill Smith</td>
+                <td>50</td>
+            </tr>
+        </table>
+    <h3>Exercise 2</h3>
+        <table>
+            <caption>Names</caption>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Points</th>
+            </tr>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+            </tr>
+        </table>
+    <h3>Exercise 3</h3>
+    <table style="width:300px;height: 100px;">
+        <caption>Names</caption>
+        <tr>
+            <th width="45%">First Name</th>
+            <th width="45%">Last Name</th>
+            <th>Points</th>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+        </tr>
+    </table>
+    <h3>Exercise 4</h3>
+        <table style="width:200px;height: 100px;">
+            <tr height="40%">
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Jill Smith</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Eve Jckson</td>
+                <td>94</td>
+            </tr>
+        </table>
+    <h3>Exercise 5</h3>
+        <table style="width:300px; height:100px;">
+            <tr>
+                <th colspan="2">Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td width="40%">Jill</td>
+                <td width="40%">Smith</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+            </tr>
+        </table>
+    <h3>Exercise 6</h3>
+        <table width="400px">
+            <tr>
+                <th width="50px">Name</th>
+                <td>Jill Smith</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Phone</th>
+                <td>555-77854</td>
+            </tr>
+            <tr>
+                <td>555-77854</td>
+            </tr>
+        </table>
+</body>
+</html>
