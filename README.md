@@ -1,2 +1,2 @@
 # HTML
-All my practices on HTML
+# My HTML exercises
